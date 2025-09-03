@@ -22,6 +22,8 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
       - hyprland
+      - alacritty
+      - https://github.com/kando-menu/kando/releases/download/v2.1.0-beta.1/kando-2.1.0.beta.1-1.%OS_VERSION%.rpm
       - micro
       - starship
     remove:
