@@ -22,6 +22,8 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-%OS_VERSION%/yalter-niri-fedora-%OS_VERSION%.repo
     install:
+      - lightdm
+      - slick-greeter
       - niri
       - alacritty
       - https://github.com/kando-menu/kando/releases/download/v2.1.0-beta.1/kando-2.1.0.beta.1-1.x86_64.rpm
@@ -32,6 +34,7 @@ modules:
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+      - lightdm-gtk # lightdm has this as a dependency
 
   - type: default-flatpaks
     configurations:
