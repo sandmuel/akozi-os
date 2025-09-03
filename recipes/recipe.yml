@@ -34,7 +34,6 @@ modules:
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-      - lightdm-gtk # lightdm has this as a dependency
 
   - type: default-flatpaks
     configurations:
