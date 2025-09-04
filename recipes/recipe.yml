@@ -23,8 +23,7 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-%OS_VERSION%/yalter-niri-fedora-%OS_VERSION%.repo
     install:
       - hyprland
-      - lightdm
-      - slick-greeter
+      - greetd
       - niri
       - alacritty
       #- https://github.com/kando-menu/kando/releases/download/v2.1.0-beta.1/kando-2.1.0.beta.1-1.x86_64.rpm
