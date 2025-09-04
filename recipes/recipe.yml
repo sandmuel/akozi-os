@@ -24,8 +24,8 @@ modules:
     install:
       #- gdm
       - hyprland
-      - lightdm
-      - lightdm-gtk
+      #- lightdm
+      #- lightdm-gtk
       #- slick-greeter
       #- niri
       - alacritty
