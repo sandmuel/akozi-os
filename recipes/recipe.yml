@@ -25,7 +25,7 @@ modules:
       #- gdm
       - hyprland
       - lightdm
-      - lightdm-gtk-greeter
+      - lightdm-gtk
       #- slick-greeter
       #- niri
       - alacritty
