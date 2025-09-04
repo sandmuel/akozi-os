@@ -27,7 +27,7 @@ modules:
       - tuigreet
       - niri
       - alacritty
-      #- https://github.com/kando-menu/kando/releases/download/v2.1.0-beta.1/kando-2.1.0.beta.1-1.x86_64.rpm
+      - https://github.com/kando-menu/kando/releases/download/v2.1.0-beta.1/kando-2.1.0.beta.1-1.x86_64.rpm
       - micro
       - starship
     remove:
