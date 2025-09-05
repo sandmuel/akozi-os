@@ -27,7 +27,6 @@ modules:
       - tuigreet
       - niri
       - alacritty
-      #- https://github.com/kando-menu/kando/releases/download/v2.1.0-beta.1/kando-2.1.0.beta.1-1.x86_64.rpm
       - micro
       - starship
     remove:
@@ -43,6 +42,7 @@ modules:
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
           - io.github.kolunmi.Bazaar
+          - menu.kando.Kando
           - org.mozilla.firefox
       - scope: user # Also add Flathub user repo, but no user packages
 
