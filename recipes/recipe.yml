@@ -46,5 +46,10 @@ modules:
           - io.github.kolunmi.Bazaar
       - scope: user # Also add Flathub user repo, but no user packages
 
+  - type: systemd
+    system:
+      enabled:
+        - greetd
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
