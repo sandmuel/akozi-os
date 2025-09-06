@@ -24,10 +24,10 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/swayfx/swayfx/repo/fedora-%OS_VERSION%/swayfx-swayfx-fedora-%OS_VERSION%.repo
     install:
       - greetd
-      - swayfx
-      - swaybg
       - tuigreet
       - niri
+      - hyprland
+      - swaybg
       - https://kojipkgs.fedoraproject.org//packages/xwayland-satellite/0.7/1.fc41/x86_64/xwayland-satellite-0.7-1.fc41.x86_64.rpm
       - alacritty
       - micro
