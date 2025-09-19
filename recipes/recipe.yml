@@ -21,13 +21,11 @@ modules:
     repos:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-%OS_VERSION%/yalter-niri-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/swayfx/swayfx/repo/fedora-%OS_VERSION%/swayfx-swayfx-fedora-%OS_VERSION%.repo
     install:
       - greetd
       - tuigreet
       - niri
-      - swayfx
-      - swaybg
+      - hyprland
       - https://kojipkgs.fedoraproject.org//packages/xwayland-satellite/0.7/1.fc41/x86_64/xwayland-satellite-0.7-1.fc41.x86_64.rpm
       - alacritty
       - micro
