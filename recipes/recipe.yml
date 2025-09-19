@@ -26,7 +26,6 @@ modules:
       - tuigreet
       - niri
       - hyprland
-      - https://kojipkgs.fedoraproject.org//packages/xwayland-satellite/0.7/1.fc41/x86_64/xwayland-satellite-0.7-1.fc41.x86_64.rpm
       - alacritty
       - micro
       - starship
