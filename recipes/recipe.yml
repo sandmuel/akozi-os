@@ -25,7 +25,7 @@ modules:
       - greetd
       - tuigreet
       - niri
-      - hyprland
+      - xdg-desktop-portal-gtk
       - alacritty
       - micro
       - starship
